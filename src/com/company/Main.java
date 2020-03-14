@@ -14,10 +14,10 @@ public class Main {
         System.out.println( "Write a name" );
 
         // Reading data using readLine
-        String name1 = reader.readLine();
+        String name3 = reader.readLine();
 
         // Printing the read line
-        System.out.println( "You wrote " + name1);
+        System.out.println( "You wrote " + name3);
 
         System.out.println( "Write another name" );
 
@@ -27,7 +27,7 @@ public class Main {
         // Printing the read line
         System.out.println( "You wrote " + name2);
 
-        System.out.println(name1 + " ❤ " + name2);
+        System.out.println(name3 + " ❤ " + name2);
 
         // ❤
     }
