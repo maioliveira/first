@@ -10,51 +10,51 @@ public class Main {
         //Enter data using BufferReader
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        //String[] meuArray = new String(10)
+        String[] meuArray = new String[10];
 
-        String name1, name2, name3, name4, name5, name6, name7, name8, name9, name10;
+        //String name1, name2, name3, name4, name5, name6, name7, name8, name9, name10;
 
         System.out.println( "Write a name" );
-                name1 = reader.readLine();
-                    System.out.println( "You wrote " + name1);
+                meuArray[0] = reader.readLine();
+                    System.out.println( "You wrote " + meuArray[0]);
 
         System.out.println( "Write another name" );
-                name2 = reader.readLine();
-                    System.out.println( "You wrote " + name2);
+                meuArray[1] = reader.readLine();
+                    System.out.println( "You wrote " + meuArray[1]);
 
         System.out.println( "Write another name" );
-                name3 = reader.readLine();
-                    System.out.println( "You wrote " + name3);
+                meuArray[2] = reader.readLine();
+                    System.out.println( "You wrote " + meuArray[2]);
 
         System.out.println( "Write another name" );
-                name4 = reader.readLine();
-                    System.out.println( "You wrote " + name4);
+                meuArray[3] = reader.readLine();
+                    System.out.println( "You wrote " + meuArray[3]);
 
         System.out.println( "Write another name" );
-                name5 = reader.readLine();
-                    System.out.println( "You wrote " + name5);
+                meuArray[4] = reader.readLine();
+                    System.out.println( "You wrote " + meuArray[4]);
 
         System.out.println( "Write another name" );
-                name6 = reader.readLine();
-                    System.out.println( "You wrote " + name6);
+                meuArray[5] = reader.readLine();
+                    System.out.println( "You wrote " + meuArray[5]);
 
         System.out.println( "Write another name" );
-                name7 = reader.readLine();
-                    System.out.println( "You wrote " + name7);
+                meuArray[6] = reader.readLine();
+                    System.out.println( "You wrote " + meuArray[6]);
 
         System.out.println( "Write another name" );
-                name8 = reader.readLine();
-                    System.out.println( "You wrote " + name8);
+                meuArray[7] = reader.readLine();
+                    System.out.println( "You wrote " + meuArray[7]);
 
         System.out.println( "Write another name" );
-                name9 = reader.readLine();
-                    System.out.println( "You wrote " + name9);
+                meuArray[8] = reader.readLine();
+                    System.out.println( "You wrote " + meuArray[8]);
 
         System.out.println( "Write one last name" );
-                name10= reader.readLine();
-                    System.out.println( "You wrote " + name10);
+                meuArray[9] = reader.readLine();
+                    System.out.println( "You wrote " + meuArray[9]);
 
-        System.out.println(name1 + " ❤ " + name2 + " ❤ " + name3 + " ❤ " + name4 + " ❤ " + name5 + " ❤ " + name6 + " ❤ " + name7 + " ❤ " + name8 + " ❤ " + name9 + " ❤ " + name10);
+        System.out.println(meuArray[0] + " ❤ " + meuArray[1] + " ❤ " + meuArray[2] + " ❤ " + meuArray[3] + " ❤ " + meuArray[4] + " ❤ " + meuArray[5] + " ❤ " + meuArray[6] + " ❤ " + meuArray[7] + " ❤ " + meuArray[8] + " ❤ " + meuArray[9]);
 
     }
 }
