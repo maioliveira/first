@@ -11,9 +11,17 @@ public class Main {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String[] meuArray = new String[10];
+int arrayLength = meuArray.length;
+int contador = 0;
+        while (contador < arrayLength) {
+            System.out.println( "Write a name" );
+            meuArray[contador] = new String(reader.readLine());
+            System.out.println( "You put " + meuArray[contador]);
 
+            contador = contador + 1;
+        }
         //String name1, name2, name3, name4, name5, name6, name7, name8, name9, name10;
-
+/*
         System.out.println( "Write a name" );
                 meuArray[0] = reader.readLine();
                     System.out.println( "You wrote " + meuArray[0]);
@@ -53,7 +61,7 @@ public class Main {
         System.out.println( "Write one last name" );
                 meuArray[9] = reader.readLine();
                     System.out.println( "You wrote " + meuArray[9]);
-
+*/
         System.out.println(meuArray[0] + " ❤ " + meuArray[1] + " ❤ " + meuArray[2] + " ❤ " + meuArray[3] + " ❤ " + meuArray[4] + " ❤ " + meuArray[5] + " ❤ " + meuArray[6] + " ❤ " + meuArray[7] + " ❤ " + meuArray[8] + " ❤ " + meuArray[9]);
 
     }
